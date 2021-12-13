@@ -1,0 +1,43 @@
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 60, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 1em 2em;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.header-top a {
+  color: inherit;
+}
+header h3 {
+  margin-top: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+nav a:hover {
+  color: white;
+}
